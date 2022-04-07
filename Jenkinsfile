@@ -4,7 +4,7 @@ agent any
  stages{
    stage("git clone"){
    steps{
-     echo "hello"
+     echo "hello and welcome"
        }
    }
  }
