@@ -1,5 +1,5 @@
 currentBuild.displayName= "${env.GIT_COMMIT}"
-pipleine {
+pipeline {
 agent any 
  stages{
    stage("git clone"){
