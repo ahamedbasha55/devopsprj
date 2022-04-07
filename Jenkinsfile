@@ -1,4 +1,4 @@
-currentBuild.displayName= +GIT_COMMIT
+currentBuild.displayName= "$GIT_COMMIT"
 pipleine {
 agent any 
  stages{
