@@ -1,4 +1,4 @@
-currentBuild.displayName= "name of build"
+currentBuild.displayName= "${env.GIT_COMMIT}"
 pipeline {
 agent any 
  stages{
